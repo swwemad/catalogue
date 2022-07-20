@@ -1,12 +1,12 @@
 
 <div>
-  <div class="fixedBottomLeft background1" style="filter: blur(40px);">
+  <div class="fixedBottomLeft background1" [ngStyle]="{'filter': screen === 1 ? getBlur(0) : screen === 2 ? getBlur(20) : getBlur(40)}">
     <img width="100%" src="../assets/images/background/1.svg"/>
   </div>
-  <div class="fixedBottomRight background2" style="filter: blur(10px);">
+  <div *ngIf="screen >= 2" class="fixedBottomRight background2" [ngStyle]="{'filter': screen === 2 ? getBlur(0) : getBlur(5)}">
     <img width="100%" src="../assets/images/background/2.svg"/>
   </div>
-  <div class="fixedBottomLeft background3" style="filter: blur(0px);">
+  <div *ngIf="screen === 3" class="fixedBottomLeft background3">
     <img width="100%" src="../assets/images/background/3.svg"/>
   </div>
 </div>

@@ -1,0 +1,12 @@
+.backButton {
+  position:absolute; 
+  left: 20px; 
+  top: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+.backButton:hover {
+  font-weight: bold;
+}
