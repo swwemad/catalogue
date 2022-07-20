@@ -1,1 +1,23 @@
-<p>item works!</p>
+<div class="itemWrapper">
+  <div class="leftWrapper">
+    <div class="itemImg">
+      <img width="100%" height="100%" style="object-fit: contain;" [src]='item.pictureUrl'/>
+    </div>
+    <div class="familyChip">{{item.family}}</div>
+  </div>
+  
+  <div class="rightWrapper">
+    <div class="itemDescr">{{item.description}}</div>
+    <div class="itemText">{{item.text}}</div>
+    <div class="itemInfo">
+      <div>
+        {{item.price}} €
+      </div>
+      <div>
+        {{item.stock}} uds.
+      </div>
+    </div>
+  </div>
+</div>
+
+

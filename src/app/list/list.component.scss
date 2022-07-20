@@ -6,6 +6,12 @@
   flex-wrap: wrap;
 }
 
+.listContainer {
+  width:90vw;  
+  display: flex;
+  justify-content: center;
+}
+
 /* Responsive styles*/
 @media screen and (max-width: 800px) {
   

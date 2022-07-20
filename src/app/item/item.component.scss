@@ -1,0 +1,89 @@
+.itemWrapper {
+  display: flex;
+  flex-direction: row;
+  width: 80vw ;
+  align-items: flex-start;
+  justify-content: space-around;
+  height: max-content;
+}
+
+.leftWrapper {
+  width: 20vw ;
+  display: flex;
+  flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.rightWrapper {
+  width: 40vw ;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px
+}
+
+.itemImg {
+  width: 20vw;
+}
+
+.familyChip {
+  background-color:#4CDBC4 ;
+  border-radius: 20px; 
+  color:white;
+  padding-top: 4px; 
+  padding-bottom: 4px; 
+  padding-right: 14px;
+  padding-left: 14px;
+  width: fit-content;
+  min-width: 50px;
+  text-align: center; 
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.itemDescr {
+  text-align:center;
+  font-weight: bold;
+}
+
+.itemText {
+  text-align:justify;
+  margin-top: 20px
+}
+
+.itemInfo {
+  margin-top: 40px;
+  font-weight: bold;
+  font-size: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 30vw;
+}
+
+/* Responsive styles*/
+@media screen and (max-width: 800px) {
+  .leftWrapper {
+    width: 90vw ;
+  }
+  .rightWrapper {
+    width: 90vw ;
+    margin-bottom: 60px;
+  }
+
+  .itemWrapper {
+    width: 90vw;
+    flex-direction: column;
+  }
+
+  .itemImg {
+    width: 50vw;
+  }
+
+  .itemInfo {
+    width: 80vw;
+  }
+}

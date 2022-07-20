@@ -26,12 +26,12 @@ export class CardHomeComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  getImageSrc() {
+  getImageSrc() { //tenemos guardadas en local tres imágenes, una para cada familia
     return '../../assets/images/catalogue/'+this.family.id+'.png'
 
   }
 
-  navigateToList () {
+  navigateToList () { //navegamos a la vista de la lista de elementos de una familia según el id seleccionado
     this.router.navigate(['list/'+this.family.id]);
   }
 

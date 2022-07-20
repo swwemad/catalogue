@@ -29,7 +29,7 @@ export class CardListComponent implements OnInit {
   }
 
 
-  navigateToItem () {
+  navigateToItem () { //navegamos a la vista del objeto según su id
     this.router.navigate(['item/'+this.item.id]);
   }
 

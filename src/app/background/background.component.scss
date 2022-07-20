@@ -15,6 +15,9 @@
 .background1 { 
   width: 70vw;
 }
+.background1small { 
+  width: 40vw;
+}
 .background2 { 
   width: 50vw;
 }
@@ -26,6 +29,9 @@
 @media screen and (max-width: 800px) {
   .background1 { 
     width: 90vw;
+  }
+  .background1small { 
+    width: 50vw;
   }
   .background2 { 
     width: 70vw;

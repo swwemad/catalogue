@@ -24,6 +24,7 @@ export class NavComponent implements OnInit {
 
   ngOnInit(): void { }
 
+  //Al darle al botón de inicio, volvemos a la página inicial, tanto si estamos en la vista del objeto como en la de la lista
   navigateHome() {
     this.router.navigate(['']);
   }
