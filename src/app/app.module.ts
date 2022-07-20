@@ -7,6 +7,11 @@ import { HomeComponent } from './home/home.component';
 import { ListComponent } from './list/list.component';
 import { ItemComponent } from './item/item.component';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { NavComponent } from './nav/nav.component';
+import { CardHomeComponent } from './card-home/card-home.component';
+import { CardListComponent } from './card-list/card-list.component';
+import { CardItemComponent } from './card-item/card-item.component';
+import { BackgroundComponent } from './background/background.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +20,11 @@ import { NotFoundComponent } from './not-found/not-found.component';
     ListComponent,
     ItemComponent,
     NotFoundComponent,
+    NavComponent,
+    CardHomeComponent,
+    CardListComponent,
+    CardItemComponent,
+    BackgroundComponent,
   ],
   imports: [
     BrowserModule,

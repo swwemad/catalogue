@@ -1,0 +1,36 @@
+
+
+.fixedBottomLeft {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.fixedBottomRight {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.background1 { 
+  width: 70vw;
+}
+.background2 { 
+  width: 50vw;
+}
+.background3 { 
+  width: 20vw;
+}
+
+/* Responsive styles*/
+@media screen and (max-width: 800px) {
+  .background1 { 
+    width: 90vw;
+  }
+  .background2 { 
+    width: 70vw;
+  }
+  .background3 { 
+    width: 50vw;
+  }
+}
