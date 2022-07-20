@@ -1,0 +1,16 @@
+.listWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+/* Responsive styles*/
+@media screen and (max-width: 800px) {
+  
+  .listWrapper {
+    flex-direction: column;
+  }
+
+}

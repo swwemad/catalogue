@@ -19,7 +19,6 @@ export class HomeComponent implements OnInit {
   }
 
   getFamilies() {
-    console.log('response');
     let options = {method: 'GET'}
     let fetchUrl='https://test.krama.es:8014/family/list';
     fetch(fetchUrl, options)
