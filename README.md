@@ -2,9 +2,9 @@
 
 1. Clonamos el repositorio desde una carpeta en local:
 
-`git clone <url del repositorio>`
+`git clone https://github.com/swwemad/catalogue.git`
 
-2. Instalamos los paquetes:
+1. Instalamos los paquetes:
 
 `npm install`
 
