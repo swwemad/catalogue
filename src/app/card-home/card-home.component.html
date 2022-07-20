@@ -1,1 +1,8 @@
-<p>card-home works!</p>
+<div (click)="navigateToList()" class="cardHomeWrapper">
+ <div class="familyDescription">
+  {{family.description}}
+ </div>
+ <div class="familyImg">
+  <img width="100%" height="100%" style="object-fit: contain;" [src]='getImageSrc()'/>
+</div>
+</div>

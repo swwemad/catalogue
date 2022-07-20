@@ -12,7 +12,7 @@ export class NavComponent implements OnInit {
   constructor(private router: Router ) {
     this.router.events.subscribe((event: Event) => { //detectamos cambio en la url de navegación
       if (event instanceof NavigationEnd) {
-        console.log(event.url)
+        //console.log(event.url)
         if (event.url === '/') {
           this.isHome = true; 
         } else {

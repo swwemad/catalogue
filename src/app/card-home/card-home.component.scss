@@ -1,0 +1,48 @@
+.cardHomeWrapper {
+  width: 20vw;
+  height: 100px !important;
+  z-index:20;
+  margin: 32px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 16px;
+  background-color: #EBEDF0;
+  border-radius: 10px;
+  filter:drop-shadow(2px 3px 4px rgba(171, 179, 187, 0.32));
+  cursor: pointer;
+}
+.cardHomeWrapper:hover {
+  transform: scale(1.05);
+}
+
+.familyDescription {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.familyImg {
+  width:132px;
+  height: 110px;
+  margin-top: 20px;
+}
+
+
+/* Responsive styles*/
+@media screen and (max-width: 800px) {
+  .cardHomeWrapper {
+    width: 60vw;
+    height: 80px !important;
+    margin: 20px;
+   }
+
+   .familyDescription {
+    font-size: 16px;
+  }
+
+  .familyImg {
+    width:30vw;
+    height: 26vw;
+  }
+
+}

@@ -27,29 +27,12 @@
     position: sticky;
     top: 0;
     width: 100vw;
-  /*   width: 100vw;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center; */
   }
 
   .bottomBackground {
     position: fixed;
     bottom: -5px;
     width: 105vw;
-/*     width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center; */
   }
 
 
-/* Responsive styles*/
-
-  @media screen and (max-width: 575px) {
-    svg#rocket-smoke {
-      display: none;
-      visibility: hidden;
-    }
-  }

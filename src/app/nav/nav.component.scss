@@ -10,3 +10,26 @@
 .backButton:hover {
   font-weight: bold;
 }
+
+.titleNav {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.navResp {
+  margin-left: 2px
+}
+
+/* Responsive styles*/
+@media screen and (max-width: 800px) {
+
+  .titleNav {
+    font-weight: 700;
+    font-size: 16px;
+  }
+
+  .navResp {
+   display: none;
+  }
+
+}

@@ -3,13 +3,14 @@
   <div (click)="navigateHome()" *ngIf="!isHome" class="backButton">
     <svg width="20" height="20" viewBox="0 0 47 47" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M30.1094 10.2812L16.8906 23.5L30.1094 36.7188" stroke="#243442" stroke-width="4.40625" stroke-linecap="round" stroke-linejoin="round"/>
-    </svg>      
-    &nbsp; Inicio 
+    </svg> 
+    <div class="navResp"> Inicio </div>     
+  
   </div>
 
   <div style="display: flex;align-items: center;justify-content: center;flex-direction: column;">
-    <div style="font-weight: 700; font-size: 22px;">Catálogo</div>
-    <div style="height:3px;width:120px;background-color: #4CDBC4;border-radius: 4px;margin-top: 2px;"></div>
+    <div class="titleNav">Catálogo</div>
+    <div style="height:3px;width:100px;background-color: #4CDBC4;border-radius: 4px;margin-top: 2px;"></div>
 
   </div>
 </div>
